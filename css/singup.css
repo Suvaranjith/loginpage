@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 40px 0 40px;
+}
+
+.logo a{
+    display: inline-block;
+}
+
+.logo a img{
+    width: 200px;
+}
+
+.signupform{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.getstared{
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+
+.username{
+    margin:0 0 10px;
+}
+
+.username input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    /* margin: 0 0 15px; */
+}
+
+.choose-a-password{
+    margin: 0 0 10px;
+}
+
+.choose-a-password input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    /* margin: 0 0 15px; */
+}
+
+.name{
+    width: 100%;
+    /* box-sizing: border-box; */
+    display: inline-block;
+    margin: 0 0 30px;
+}
+
+.firstname{
+    width: 50%;
+    float: left;
+}
+
+.firstname input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    margin: 0 15px 0 0;
+}
+
+.lastname{
+    width: 50%;
+    float: right;
+}
+
+.lastname input{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.phone{
+    position: relative;
+    margin: 0 0 10px;
+}
+
+.phone input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    /* margin: 0 0 15px; */
+}
+
+.phone span{
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    box-sizing: border-box;
+    /* margin: 0 5px 0 0; */
+}
+
+.number{
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.number input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    /* margin: 0 0 15px; */
+}
+
+.number span{
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    box-sizing: border-box;
+    /* margin: 0 5px 0 0; */
+}
+
+.teamofservice{
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 0 0 20px;
+}
+
+.signup-button a input{
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #7d5dfb;
+    border: none;
+    border-radius: 5px;
+}
+
+.singin{
+    font-size: 12px;
+    color: #fff;
+    margin: 20px;
+}
+
+.singin span a{
+    color: #81d2eb;
+}
